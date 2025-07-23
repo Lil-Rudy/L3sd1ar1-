@@ -10,7 +10,6 @@ const colors = ["#ff69b4", "#ff1493", "#ff85c1"];
 
 const audio = document.getElementById("audio-control");
 
-// Reproduce música al primer toque
 document.body.addEventListener("click", () => {
   if (audio.paused) audio.play();
 });
