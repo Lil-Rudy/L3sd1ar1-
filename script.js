@@ -1,28 +1,29 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
+
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const items = [];
+const hearts = [];
+const texts = ["TE AMO"];
 const colors = ["#ff69b4", "#ff1493", "#ff85c1"];
-const texts = ["TE AMO", "❤️", "💖"];
 
 const audio = document.getElementById("audio-control");
 
-// Reproduce música al primer clic
+// Reproduce música al primer toque
 document.body.addEventListener("click", () => {
   if (audio.paused) audio.play();
 });
 
-class FallingItem {
-  constructor(x, y, text) {
+class Heart {
+  constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.text = text;
-    this.size = 20 + Math.random() * 40;
+    this.size = 14 + Math.random() * 20;
     this.speed = 1 + Math.random() * 2;
-    this.color = colors[Math.floor(Math.random() * colors.length)];
     this.opacity = 0.7 + Math.random() * 0.3;
+    this.text = texts[0];
+    this.color = colors[Math.floor(Math.random() * colors.length)];
   }
 
   draw() {
@@ -39,32 +40,28 @@ class FallingItem {
   }
 }
 
-// Generar lluvia de corazones y TE AMO
-function rainItems() {
+function createHeart() {
   const x = Math.random() * canvas.width;
   const y = canvas.height + 50;
-  const randomText = texts[Math.floor(Math.random() * texts.length)];
-  items.push(new FallingItem(x, y, randomText));
+  hearts.push(new Heart(x, y));
 }
 
-// Explosión de corazones al tocar
 canvas.addEventListener("click", (e) => {
   for (let i = 0; i < 20; i++) {
-    const randomText = texts[Math.floor(Math.random() * texts.length)];
-    items.push(new FallingItem(e.clientX, e.clientY, randomText));
+    hearts.push(new Heart(e.clientX, e.clientY));
   }
 });
 
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  items.forEach((item, i) => {
-    item.update();
-    if (item.y < -50) items.splice(i, 1);
+  hearts.forEach((heart, index) => {
+    heart.update();
+    if (heart.y < -50) hearts.splice(index, 1);
   });
   requestAnimationFrame(animate);
 }
 
-setInterval(rainItems, 300);
+setInterval(createHeart, 200);
 
 animate();
 
