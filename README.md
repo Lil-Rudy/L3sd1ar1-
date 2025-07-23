@@ -1,5 +1,5 @@
 From: <Saved by Blink>
-Snapshot-Content-Location: https://amiudd.github.io/m4r14b3l3n/
+Snapshot-Content-Location: https://github.com/Lil-Rudy/L3sd1ar1-
 Subject: Lluvia Gigante de Amor
 Date: Tue, 22 Jul 2025 17:59:14 -0500
 MIME-Version: 1.0
@@ -12,7 +12,7 @@ Content-Type: multipart/related;
 Content-Type: text/html
 Content-ID: <frame-EAF75E45F710328FD712B99B3885FEF4@mhtml.blink>
 Content-Transfer-Encoding: binary
-Content-Location: https://amiudd.github.io/m4r14b3l3n/
+Content-Location: https://github.com/Lil-Rudy/L3sd1ar1-
 
 <!DOCTYPE html><html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-5fef6033-9199-46fc-8c3a-5067918fc27e@mhtml.blink" />
   
@@ -23,12 +23,12 @@ Content-Location: https://amiudd.github.io/m4r14b3l3n/
 <body>
 <canvas id="canvas" width="477" height="956"></canvas>
 <div class="overlay">
-  <div class="center-message">MARIA BELEN💖</div> <!-- Corazón rosa -->
+  <div class="center-message">Lusdary💖</div> <!-- Corazón rosa -->
 </div>
 <img id="cursor" class="heart-cursor" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmY2OWI0IiBkPSJNNDcuNiAyNUMyNS4xIDI1IDcgNDMuMSA3IDY1LjZDNyA4OC4xIDI0LjMgMTI3IDkzLjUgMTU3LjVjNjkuMiAzMC41IDE0Ni4zIDY0LjEgMTYxLjUgODQuMSAxNS4yLTIwIDEwMC4xLTUzLjYgMTY5LjMtODQuMSA2OS4yLTMwLjUgODYuNS02OS40IDg2LjUtOTEuOSAwLTIyLjUtMTguMS00MC42LTQwLjYtNDAuNnMtNDAuNiAxOC4xLTQwLjYgNDAuNmMwIDguMSAxLjYgMTUuNSA0LjMgMjIuMi0zLjEgMi4yLTYuNyAzLjUtMTAuNyAzLjUtMTMuOCAwLTI1LTExLjItMjUtMjVzMTEuMi0yNSAyNS0yNWM4LjEgMCAxNS41IDMuOSAyMC4yIDEwLjIgMTEuNy0xNS4yIDE4LjgtMzQuMiAxOC44LTU1LjIgMC00NS45LTM3LjItODMuMS04My4xLTgzLjFzLTgzLjEgMzcuMi04My4xIDgzLjFjMCAxNi4zIDQuNyAzMS41IDEyLjggNDQuMy0xLjIgMS4xLTIuNiAyLjEtNC4xIDIuOS0xNC4zIDcuOC0yNiggMTQuOS0zNi4yIDIwLjJDMTA5LjMgMTIxLjUgNDcuNiA4OC4xIDQ3LjYgNjUuNnMxOC4xLTQwLjYgNDAuNi00MC42QzEwOS4zIDI1IDc3IDQzLjEgNzcgNjUuNnMzMi4zIDQwLjYgMzIuMyA0MC42UzE3MC4xIDI1IDQ3LjYgMjV6Ii8+PC9zdmc+" alt="heart" style="display: none;">
 
 <audio id="audio-control" loop="">
-  <source src="https://amiudd.github.io/m4r14b3l3n/musica.mp3" type="audio/mpeg">
+  <source src="lil_peep_nuts_feat._rainy_bear_official_audio_mp3_4572.mp3"audio/mpeg">
   Tu navegador no soporta el elemento de audio.
 </audio>
 
